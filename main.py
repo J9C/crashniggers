@@ -3,20 +3,22 @@ from discord.ext import commands
 import colorama
 from colorama import init, Fore, Back, Style
 import ctypes
+import os 
+from os import system
 
-# Dont just skid it, gimme some credits, thank you - J9C 
- # Dont just skid it, gimme some credits, thank you - J9C
-  # Dont just skid it, gimme some credits, thank you - J9C
-   # Dont just skid it, gimme some credits, thank you - J9C
-    # Dont just skid it, gimme some credits, thank you - J9C
-     # Dont just skid it, gimme some credits, thank you - J9C 
-      # Dont just skid it, gimme some credits, thank you - J9C
-       # Dont just skid it, gimme some credits, thank you - J9C
-        # Dont just skid it, gimme some credits, thank you - J9C
-         # Dont just skid it, gimme some credits, thank you - J9C
-          # Dont just skid it, gimme some credits, thank you - J9C
-           # Dont just skid it, gimme some credits, thank you - J9C
-            # Dont just skid it, gimme some credits, thank you - J9C
+# Dont just skid it, gimme some credits, thank you - Janky 
+ # Dont just skid it, gimme some credits, thank you - Janky
+  # Dont just skid it, gimme some credits, thank you - Janky
+   # Dont just skid it, gimme some credits, thank you - Janky
+    # Dont just skid it, gimme some credits, thank you - Janky
+     # Dont just skid it, gimme some credits, thank you - Janky 
+      # Dont just skid it, gimme some credits, thank you - Janky
+       # Dont just skid it, gimme some credits, thank you - Janky
+        # Dont just skid it, gimme some credits, thank you - Janky
+         # Dont just skid it, gimme some credits, thank you - Janky
+          # Dont just skid it, gimme some credits, thank you - Janky
+           # Dont just skid it, gimme some credits, thank you - Janky
+            # Dont just skid it, gimme some credits, thank you - Janky
 
 init(convert=True)
 prefix = "."
@@ -24,7 +26,9 @@ prefix = "."
 FOURISHOT = commands.Bot(command_prefix=prefix, self_bot=True)
 FOURISHOT.remove_command('help')
 
-ctypes.windll.kernel32.SetConsoleTitleA("4")
+system("title "+"FOUR IS HOT [FUCK SKIDDADKE]")
+
+os.system('mode 150, 30')
 
 @FOURISHOT.event
 async def on_connect():
@@ -80,4 +84,4 @@ async def crashall(ctx):
     print("   ")
     print("                                                  [SYSTEM INFORMATION] CRASHED THE FUCK OUT A NIGGER")
 
-FOURISHOT.run('Token Goes here', bot=False)
+FOURISHOT.run('TOKEN HERE', bot=False)
